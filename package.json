@@ -29,7 +29,8 @@
     "gulp-type": "^0.3.0"
   },
   "files": [
-    "build"
+    "build",
+    "binding.gyp"
   ],
   "bin": {
     "lsfprint": "./build/lsfprint.js"
