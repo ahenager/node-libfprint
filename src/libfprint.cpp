@@ -303,7 +303,7 @@ NAN_METHOD(fpreader::update_database)
     // Iterate through args[0], adding each element to our list
     for(unsigned int i = 0; i < r->user_array_length - 1; i++) {
 
-        String::AsciiValue val(arr->Get(i)->ToString());
+        String::Utf8Value val(arr->Get(i)->ToString());
 
         int length = val.length();
 
